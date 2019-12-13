@@ -1,18 +1,18 @@
 import React from 'react'
 import { Router, Switch, Route } from "react-router"
-import Login from '../pages/Login'
-import Home from '../pages/Home'
-import Register from '../pages/Register'
+import login from '../pages/login/login'
+import home from '../pages/home/home'
+import register from '../pages/register/register'
 import {history} from '../history'
-import NotFound from './NotFound'
+import notFound from './notFound'
 
 const Routes = ()=>(
     <Router history={history}>
         <Switch>
-            <Route component={Login} exact path="/login"/>
-            <Route component={Register} exact path="/register" />
-            <Route component={Home} exact path="/" />
-            <Route component={NotFound}/>       
+            <Route component={login} exact path="/login"/>
+            <Route component={register} exact path="/register" />
+            <Route component={home} exact path="/" />
+            <Route component={notFound}/>       
         </Switch>
     </Router>
 )

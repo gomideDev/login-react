@@ -1,0 +1,42 @@
+.login-top h1{
+    color: #5e5e5e;
+}
+
+.login-top p{
+    color: #636363;
+}
+
+
+.login-field{
+    border: none;
+    background: rgba(0,0,0, .5);
+    color: #FDFDFD;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    transition: all .1s linear;
+}
+
+.login-field:focus{
+    box-shadow: 0 4px 4px rgba(0,0,0, .5);
+    outline: none;
+}
+
+.login-error{
+    color: #ff2929;
+}
+
+.login-btn{
+    background: #11c24c;
+    color: #fdfdfd;
+    padding: .5rem .5rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.login-btn:hover{
+    cursor: pointer;
+}
